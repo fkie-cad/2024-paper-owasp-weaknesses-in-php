@@ -1,0 +1,1226 @@
+{
+    "summary": {
+        "total": {
+            "number_of_repos": 299,
+            "number_of_files_scanned": 118225,
+            "number_of_findings": 9301,
+            "avg_findings_per_repo": 31.107023411371237,
+            "avg_findings_per_repo_with_findings": 90.30097087378641,
+            "repos_with_findings": 196,
+            "repos_without_findings": 103,
+            "repos_finding_ranking": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        "bins": {
+            "low": {
+                "number_of_repos": 100,
+                "number_of_files_scanned": 11283,
+                "number_of_findings": 1981,
+                "avg_findings_per_repo": 19.81,
+                "avg_findings_per_repo_with_findings": 42.148936170212764,
+                "repos_with_findings": 53,
+                "repos_without_findings": 47,
+                "repos_finding_ranking": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "medium": {
+                "number_of_repos": 100,
+                "number_of_files_scanned": 16457,
+                "number_of_findings": 2913,
+                "avg_findings_per_repo": 29.13,
+                "avg_findings_per_repo_with_findings": 88.27272727272727,
+                "repos_with_findings": 67,
+                "repos_without_findings": 33,
+                "repos_finding_ranking": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "high": {
+                "number_of_repos": 99,
+                "number_of_files_scanned": 90485,
+                "number_of_findings": 4407,
+                "avg_findings_per_repo": 44.515151515151516,
+                "avg_findings_per_repo_with_findings": 191.6086956521739,
+                "repos_with_findings": 76,
+                "repos_without_findings": 23,
+                "repos_finding_ranking": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            }
+        }
+    },
+    "findings": {
+        "total": {
+            "found_rules": {
+                "sorted_by_owasp_classes": {
+                    "A01:2021 - Broken Access Control": {
+                        "number": 1940,
+                        "percentage": 20.86,
+                        "found_rules": {
+                            "php.lang.security.unlink-use": 1645,
+                            "php.symfony.security.audit.symfony-non-literal-redirect": 232,
+                            "php.lang.security.phpinfo-use": 19,
+                            "php.laravel.security.laravel-blade-form-missing-csrf": 14,
+                            "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                            "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                            "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                            "php.laravel.security.laravel-cookie-null-domain": 4,
+                            "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                            "php.laravel.security.laravel-cookie-same-site": 3
+                        }
+                    },
+                    "A02:2021 - Cryptographic Failures": {
+                        "number": 2321,
+                        "percentage": 24.95,
+                        "found_rules": {
+                            "php.lang.security.weak-crypto": 2090,
+                            "php.lang.security.ftp-use": 195,
+                            "php.lang.security.curl-ssl-verifypeer-off": 25,
+                            "php.lang.security.audit.openssl-decrypt-validate": 10,
+                            "php.lang.security.md5-used-as-password": 1
+                        }
+                    },
+                    "A03:2021 - Injection": {
+                        "number": 3694,
+                        "percentage": 39.72,
+                        "found_rules": {
+                            "php.lang.security.non-literal-header": 1535,
+                            "php.lang.security.injection.echoed-request": 595,
+                            "php.lang.security.exec-use": 540,
+                            "php.lang.security.injection.tainted-sql-string": 419,
+                            "php.lang.security.eval-use": 195,
+                            "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 145,
+                            "php.lang.security.file-inclusion": 133,
+                            "php.lang.security.backticks-use": 53,
+                            "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                            "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                            "php.lang.security.injection.tainted-object-instantiation": 11,
+                            "php.lang.security.audit.assert-use-audit": 2
+                        }
+                    },
+                    "A04:2021 - Insecure Design": {
+                        "number": 0,
+                        "percentage": 0.0,
+                        "found_rules": {}
+                    },
+                    "A05:2021 - Security Misconfiguration": {
+                        "number": 19,
+                        "percentage": 0.2,
+                        "found_rules": {
+                            "php.laravel.security.laravel-cookie-long-timeout": 11,
+                            "php.laravel.security.laravel-cookie-secure-set": 8
+                        }
+                    },
+                    "A06:2021 - Vulnerable and Outdated Components": {
+                        "number": 0,
+                        "percentage": 0.0,
+                        "found_rules": {}
+                    },
+                    "A07:2021 - Identification and Authentication Failures": {
+                        "number": 10,
+                        "percentage": 0.11,
+                        "found_rules": {
+                            "php.lang.security.php-permissive-cors": 7,
+                            "php.lang.security.ldap-bind-without-password": 3
+                        }
+                    },
+                    "A08:2021 - Software and Data Integrity Failures": {
+                        "number": 826,
+                        "percentage": 8.88,
+                        "found_rules": {
+                            "php.lang.security.unserialize-use": 653,
+                            "php.laravel.security.laravel-dangerous-model-construction": 172,
+                            "php.lang.security.extract-user-data": 1
+                        }
+                    },
+                    "A09:2021 - Security Logging and Monitoring Failures": {
+                        "number": 0,
+                        "percentage": 0.0,
+                        "found_rules": {}
+                    },
+                    "A10:2021 - Server-Side Request Forgery (SSRF)": {
+                        "number": 293,
+                        "percentage": 3.15,
+                        "found_rules": {
+                            "php.lang.security.injection.tainted-filename": 274,
+                            "php.lang.security.injection.tainted-url-host": 11,
+                            "php.lang.security.php-ssrf": 8
+                        }
+                    },
+                    "without_class": {
+                        "number": 198,
+                        "percentage": 2.13,
+                        "found_rules": {
+                            "php.lang.security.mcrypt-use": 179,
+                            "php.lang.security.md5-loose-equality": 19
+                        }
+                    }
+                },
+                "sorted_by_occurrence": {
+                    "php.lang.security.weak-crypto": 2090,
+                    "php.lang.security.unlink-use": 1645,
+                    "php.lang.security.non-literal-header": 1535,
+                    "php.lang.security.unserialize-use": 653,
+                    "php.lang.security.injection.echoed-request": 595,
+                    "php.lang.security.exec-use": 540,
+                    "php.lang.security.injection.tainted-sql-string": 419,
+                    "php.lang.security.injection.tainted-filename": 274,
+                    "php.symfony.security.audit.symfony-non-literal-redirect": 232,
+                    "php.lang.security.ftp-use": 195,
+                    "php.lang.security.eval-use": 195,
+                    "php.lang.security.mcrypt-use": 179,
+                    "php.laravel.security.laravel-dangerous-model-construction": 172,
+                    "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 145,
+                    "php.lang.security.file-inclusion": 133,
+                    "php.lang.security.backticks-use": 53,
+                    "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                    "php.lang.security.curl-ssl-verifypeer-off": 25,
+                    "php.lang.security.phpinfo-use": 19,
+                    "php.lang.security.md5-loose-equality": 19,
+                    "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                    "php.laravel.security.laravel-blade-form-missing-csrf": 14,
+                    "php.laravel.security.laravel-cookie-long-timeout": 11,
+                    "php.lang.security.injection.tainted-url-host": 11,
+                    "php.lang.security.injection.tainted-object-instantiation": 11,
+                    "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                    "php.lang.security.audit.openssl-decrypt-validate": 10,
+                    "php.laravel.security.laravel-cookie-secure-set": 8,
+                    "php.lang.security.php-ssrf": 8,
+                    "php.lang.security.php-permissive-cors": 7,
+                    "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                    "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                    "php.laravel.security.laravel-cookie-null-domain": 4,
+                    "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                    "php.laravel.security.laravel-cookie-same-site": 3,
+                    "php.lang.security.ldap-bind-without-password": 3,
+                    "php.lang.security.audit.assert-use-audit": 2,
+                    "php.lang.security.md5-used-as-password": 1,
+                    "php.lang.security.extract-user-data": 1
+                },
+                "sorted_by_confidence": {
+                    "low": {
+                        "number": 7896,
+                        "percentage": 84.89,
+                        "found_rules": {
+                            "php.lang.security.weak-crypto": 2090,
+                            "php.lang.security.unlink-use": 1645,
+                            "php.lang.security.non-literal-header": 1535,
+                            "php.lang.security.unserialize-use": 653,
+                            "php.lang.security.exec-use": 540,
+                            "php.symfony.security.audit.symfony-non-literal-redirect": 232,
+                            "php.lang.security.ftp-use": 195,
+                            "php.lang.security.eval-use": 195,
+                            "php.lang.security.mcrypt-use": 179,
+                            "php.laravel.security.laravel-dangerous-model-construction": 172,
+                            "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 145,
+                            "php.lang.security.file-inclusion": 133,
+                            "php.lang.security.backticks-use": 53,
+                            "php.lang.security.md5-loose-equality": 19,
+                            "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                            "php.laravel.security.laravel-blade-form-missing-csrf": 14,
+                            "php.laravel.security.laravel-cookie-long-timeout": 11,
+                            "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                            "php.lang.security.audit.openssl-decrypt-validate": 10,
+                            "php.laravel.security.laravel-cookie-secure-set": 8,
+                            "php.lang.security.php-ssrf": 8,
+                            "php.lang.security.php-permissive-cors": 7,
+                            "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                            "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                            "php.laravel.security.laravel-cookie-null-domain": 4,
+                            "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                            "php.laravel.security.laravel-cookie-same-site": 3,
+                            "php.lang.security.ldap-bind-without-password": 3,
+                            "php.lang.security.audit.assert-use-audit": 2
+                        }
+                    },
+                    "medium": {
+                        "number": 1405,
+                        "percentage": 15.11,
+                        "found_rules": {
+                            "php.lang.security.injection.echoed-request": 595,
+                            "php.lang.security.injection.tainted-sql-string": 419,
+                            "php.lang.security.injection.tainted-filename": 274,
+                            "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                            "php.lang.security.curl-ssl-verifypeer-off": 25,
+                            "php.lang.security.phpinfo-use": 19,
+                            "php.lang.security.injection.tainted-url-host": 11,
+                            "php.lang.security.injection.tainted-object-instantiation": 11,
+                            "php.lang.security.md5-used-as-password": 1,
+                            "php.lang.security.extract-user-data": 1
+                        }
+                    },
+                    "high": {
+                        "number": 0,
+                        "percentage": 0.0,
+                        "found_rules": {}
+                    }
+                },
+                "sorted_by_impact": {
+                    "low": {
+                        "number": 2268,
+                        "percentage": 24.38,
+                        "found_rules": {
+                            "php.lang.security.non-literal-header": 1535,
+                            "php.lang.security.unserialize-use": 653,
+                            "php.lang.security.curl-ssl-verifypeer-off": 25,
+                            "php.lang.security.md5-loose-equality": 19,
+                            "php.laravel.security.laravel-cookie-long-timeout": 11,
+                            "php.laravel.security.laravel-cookie-secure-set": 8,
+                            "php.lang.security.php-permissive-cors": 7,
+                            "php.laravel.security.laravel-cookie-null-domain": 4,
+                            "php.laravel.security.laravel-cookie-same-site": 3,
+                            "php.lang.security.ldap-bind-without-password": 3
+                        }
+                    },
+                    "medium": {
+                        "number": 6068,
+                        "percentage": 65.24,
+                        "found_rules": {
+                            "php.lang.security.weak-crypto": 2090,
+                            "php.lang.security.unlink-use": 1645,
+                            "php.lang.security.injection.echoed-request": 595,
+                            "php.lang.security.injection.tainted-sql-string": 419,
+                            "php.lang.security.injection.tainted-filename": 274,
+                            "php.symfony.security.audit.symfony-non-literal-redirect": 232,
+                            "php.lang.security.ftp-use": 195,
+                            "php.lang.security.mcrypt-use": 179,
+                            "php.laravel.security.laravel-dangerous-model-construction": 172,
+                            "php.lang.security.file-inclusion": 133,
+                            "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                            "php.lang.security.phpinfo-use": 19,
+                            "php.laravel.security.laravel-blade-form-missing-csrf": 14,
+                            "php.lang.security.injection.tainted-url-host": 11,
+                            "php.lang.security.injection.tainted-object-instantiation": 11,
+                            "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                            "php.lang.security.audit.openssl-decrypt-validate": 10,
+                            "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                            "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                            "php.lang.security.md5-used-as-password": 1,
+                            "php.lang.security.extract-user-data": 1
+                        }
+                    },
+                    "high": {
+                        "number": 965,
+                        "percentage": 10.38,
+                        "found_rules": {
+                            "php.lang.security.exec-use": 540,
+                            "php.lang.security.eval-use": 195,
+                            "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 145,
+                            "php.lang.security.backticks-use": 53,
+                            "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                            "php.lang.security.php-ssrf": 8,
+                            "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                            "php.lang.security.audit.assert-use-audit": 2
+                        }
+                    }
+                },
+                "sorted_by_severity": {
+                    "info": {
+                        "number": 0,
+                        "percentage": 0.0,
+                        "found_rules": {}
+                    },
+                    "warning": {
+                        "number": 4630,
+                        "percentage": 49.78,
+                        "found_rules": {
+                            "php.lang.security.unlink-use": 1645,
+                            "php.lang.security.non-literal-header": 1535,
+                            "php.lang.security.unserialize-use": 653,
+                            "php.lang.security.injection.tainted-filename": 274,
+                            "php.symfony.security.audit.symfony-non-literal-redirect": 232,
+                            "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 145,
+                            "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                            "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                            "php.laravel.security.laravel-blade-form-missing-csrf": 14,
+                            "php.lang.security.injection.tainted-url-host": 11,
+                            "php.lang.security.injection.tainted-object-instantiation": 11,
+                            "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                            "php.lang.security.audit.openssl-decrypt-validate": 10,
+                            "php.lang.security.php-permissive-cors": 7,
+                            "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                            "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                            "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                            "php.lang.security.ldap-bind-without-password": 3,
+                            "php.lang.security.md5-used-as-password": 1
+                        }
+                    },
+                    "error": {
+                        "number": 4671,
+                        "percentage": 50.22,
+                        "found_rules": {
+                            "php.lang.security.weak-crypto": 2090,
+                            "php.lang.security.injection.echoed-request": 595,
+                            "php.lang.security.exec-use": 540,
+                            "php.lang.security.injection.tainted-sql-string": 419,
+                            "php.lang.security.ftp-use": 195,
+                            "php.lang.security.eval-use": 195,
+                            "php.lang.security.mcrypt-use": 179,
+                            "php.laravel.security.laravel-dangerous-model-construction": 172,
+                            "php.lang.security.file-inclusion": 133,
+                            "php.lang.security.backticks-use": 53,
+                            "php.lang.security.curl-ssl-verifypeer-off": 25,
+                            "php.lang.security.phpinfo-use": 19,
+                            "php.lang.security.md5-loose-equality": 19,
+                            "php.laravel.security.laravel-cookie-long-timeout": 11,
+                            "php.laravel.security.laravel-cookie-secure-set": 8,
+                            "php.lang.security.php-ssrf": 8,
+                            "php.laravel.security.laravel-cookie-null-domain": 4,
+                            "php.laravel.security.laravel-cookie-same-site": 3,
+                            "php.lang.security.audit.assert-use-audit": 2,
+                            "php.lang.security.extract-user-data": 1
+                        }
+                    }
+                }
+            }
+        },
+        "bins": {
+            "low": {
+                "found_rules": {
+                    "sorted_by_owasp_classes": {
+                        "A01:2021 - Broken Access Control": {
+                            "number": 374,
+                            "percentage": 4.02,
+                            "found_rules": {
+                                "php.lang.security.unlink-use": 223,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 144,
+                                "php.lang.security.phpinfo-use": 7
+                            }
+                        },
+                        "A02:2021 - Cryptographic Failures": {
+                            "number": 379,
+                            "percentage": 4.07,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 350,
+                                "php.lang.security.ftp-use": 24,
+                                "php.lang.security.curl-ssl-verifypeer-off": 4,
+                                "php.lang.security.md5-used-as-password": 1
+                            }
+                        },
+                        "A03:2021 - Injection": {
+                            "number": 970,
+                            "percentage": 10.43,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 333,
+                                "php.lang.security.injection.echoed-request": 276,
+                                "php.lang.security.injection.tainted-sql-string": 167,
+                                "php.lang.security.exec-use": 75,
+                                "php.lang.security.eval-use": 49,
+                                "php.lang.security.file-inclusion": 40,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 26,
+                                "php.lang.security.backticks-use": 3,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "A04:2021 - Insecure Design": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A05:2021 - Security Misconfiguration": {
+                            "number": 4,
+                            "percentage": 0.04,
+                            "found_rules": {
+                                "php.laravel.security.laravel-cookie-long-timeout": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2
+                            }
+                        },
+                        "A06:2021 - Vulnerable and Outdated Components": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A07:2021 - Identification and Authentication Failures": {
+                            "number": 1,
+                            "percentage": 0.01,
+                            "found_rules": {
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "A08:2021 - Software and Data Integrity Failures": {
+                            "number": 98,
+                            "percentage": 1.05,
+                            "found_rules": {
+                                "php.lang.security.unserialize-use": 91,
+                                "php.laravel.security.laravel-dangerous-model-construction": 6,
+                                "php.lang.security.extract-user-data": 1
+                            }
+                        },
+                        "A09:2021 - Security Logging and Monitoring Failures": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A10:2021 - Server-Side Request Forgery (SSRF)": {
+                            "number": 68,
+                            "percentage": 0.73,
+                            "found_rules": {
+                                "php.lang.security.injection.tainted-filename": 65,
+                                "php.lang.security.php-ssrf": 3
+                            }
+                        },
+                        "without_class": {
+                            "number": 87,
+                            "percentage": 0.94,
+                            "found_rules": {
+                                "php.lang.security.mcrypt-use": 71,
+                                "php.lang.security.md5-loose-equality": 16
+                            }
+                        }
+                    },
+                    "sorted_by_occurrence": {
+                        "php.lang.security.weak-crypto": 350,
+                        "php.lang.security.non-literal-header": 333,
+                        "php.lang.security.injection.echoed-request": 276,
+                        "php.lang.security.unlink-use": 223,
+                        "php.lang.security.injection.tainted-sql-string": 167,
+                        "php.symfony.security.audit.symfony-non-literal-redirect": 144,
+                        "php.lang.security.unserialize-use": 91,
+                        "php.lang.security.exec-use": 75,
+                        "php.lang.security.mcrypt-use": 71,
+                        "php.lang.security.injection.tainted-filename": 65,
+                        "php.lang.security.eval-use": 49,
+                        "php.lang.security.file-inclusion": 40,
+                        "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 26,
+                        "php.lang.security.ftp-use": 24,
+                        "php.lang.security.md5-loose-equality": 16,
+                        "php.lang.security.phpinfo-use": 7,
+                        "php.laravel.security.laravel-dangerous-model-construction": 6,
+                        "php.lang.security.curl-ssl-verifypeer-off": 4,
+                        "php.lang.security.backticks-use": 3,
+                        "php.lang.security.php-ssrf": 3,
+                        "php.laravel.security.laravel-cookie-long-timeout": 2,
+                        "php.laravel.security.laravel-cookie-secure-set": 2,
+                        "php.lang.security.md5-used-as-password": 1,
+                        "php.lang.security.extract-user-data": 1,
+                        "php.lang.security.injection.tainted-object-instantiation": 1,
+                        "php.lang.security.php-permissive-cors": 1
+                    },
+                    "sorted_by_confidence": {
+                        "low": {
+                            "number": 1459,
+                            "percentage": 73.65,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 350,
+                                "php.lang.security.non-literal-header": 333,
+                                "php.lang.security.unlink-use": 223,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 144,
+                                "php.lang.security.unserialize-use": 91,
+                                "php.lang.security.exec-use": 75,
+                                "php.lang.security.mcrypt-use": 71,
+                                "php.lang.security.eval-use": 49,
+                                "php.lang.security.file-inclusion": 40,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 26,
+                                "php.lang.security.ftp-use": 24,
+                                "php.lang.security.md5-loose-equality": 16,
+                                "php.laravel.security.laravel-dangerous-model-construction": 6,
+                                "php.lang.security.backticks-use": 3,
+                                "php.lang.security.php-ssrf": 3,
+                                "php.laravel.security.laravel-cookie-long-timeout": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "medium": {
+                            "number": 522,
+                            "percentage": 26.35,
+                            "found_rules": {
+                                "php.lang.security.injection.echoed-request": 276,
+                                "php.lang.security.injection.tainted-sql-string": 167,
+                                "php.lang.security.injection.tainted-filename": 65,
+                                "php.lang.security.phpinfo-use": 7,
+                                "php.lang.security.curl-ssl-verifypeer-off": 4,
+                                "php.lang.security.md5-used-as-password": 1,
+                                "php.lang.security.extract-user-data": 1,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "high": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        }
+                    },
+                    "sorted_by_impact": {
+                        "low": {
+                            "number": 449,
+                            "percentage": 22.67,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 333,
+                                "php.lang.security.unserialize-use": 91,
+                                "php.lang.security.md5-loose-equality": 16,
+                                "php.lang.security.curl-ssl-verifypeer-off": 4,
+                                "php.laravel.security.laravel-cookie-long-timeout": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "medium": {
+                            "number": 1376,
+                            "percentage": 69.46,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 350,
+                                "php.lang.security.injection.echoed-request": 276,
+                                "php.lang.security.unlink-use": 223,
+                                "php.lang.security.injection.tainted-sql-string": 167,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 144,
+                                "php.lang.security.mcrypt-use": 71,
+                                "php.lang.security.injection.tainted-filename": 65,
+                                "php.lang.security.file-inclusion": 40,
+                                "php.lang.security.ftp-use": 24,
+                                "php.lang.security.phpinfo-use": 7,
+                                "php.laravel.security.laravel-dangerous-model-construction": 6,
+                                "php.lang.security.md5-used-as-password": 1,
+                                "php.lang.security.extract-user-data": 1,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "high": {
+                            "number": 156,
+                            "percentage": 7.87,
+                            "found_rules": {
+                                "php.lang.security.exec-use": 75,
+                                "php.lang.security.eval-use": 49,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 26,
+                                "php.lang.security.backticks-use": 3,
+                                "php.lang.security.php-ssrf": 3
+                            }
+                        }
+                    },
+                    "sorted_by_severity": {
+                        "info": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "warning": {
+                            "number": 885,
+                            "percentage": 44.67,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 333,
+                                "php.lang.security.unlink-use": 223,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 144,
+                                "php.lang.security.unserialize-use": 91,
+                                "php.lang.security.injection.tainted-filename": 65,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 26,
+                                "php.lang.security.md5-used-as-password": 1,
+                                "php.lang.security.injection.tainted-object-instantiation": 1,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "error": {
+                            "number": 1096,
+                            "percentage": 55.33,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 350,
+                                "php.lang.security.injection.echoed-request": 276,
+                                "php.lang.security.injection.tainted-sql-string": 167,
+                                "php.lang.security.exec-use": 75,
+                                "php.lang.security.mcrypt-use": 71,
+                                "php.lang.security.eval-use": 49,
+                                "php.lang.security.file-inclusion": 40,
+                                "php.lang.security.ftp-use": 24,
+                                "php.lang.security.md5-loose-equality": 16,
+                                "php.lang.security.phpinfo-use": 7,
+                                "php.laravel.security.laravel-dangerous-model-construction": 6,
+                                "php.lang.security.curl-ssl-verifypeer-off": 4,
+                                "php.lang.security.backticks-use": 3,
+                                "php.lang.security.php-ssrf": 3,
+                                "php.laravel.security.laravel-cookie-long-timeout": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2,
+                                "php.lang.security.extract-user-data": 1
+                            }
+                        }
+                    }
+                }
+            },
+            "medium": {
+                "found_rules": {
+                    "sorted_by_owasp_classes": {
+                        "A01:2021 - Broken Access Control": {
+                            "number": 311,
+                            "percentage": 3.34,
+                            "found_rules": {
+                                "php.lang.security.unlink-use": 290,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 11,
+                                "php.lang.security.phpinfo-use": 4,
+                                "php.laravel.security.laravel-cookie-null-domain": 3,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 1
+                            }
+                        },
+                        "A02:2021 - Cryptographic Failures": {
+                            "number": 647,
+                            "percentage": 6.96,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 590,
+                                "php.lang.security.ftp-use": 34,
+                                "php.lang.security.curl-ssl-verifypeer-off": 19,
+                                "php.lang.security.audit.openssl-decrypt-validate": 4
+                            }
+                        },
+                        "A03:2021 - Injection": {
+                            "number": 1622,
+                            "percentage": 17.44,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 892,
+                                "php.lang.security.injection.echoed-request": 273,
+                                "php.lang.security.exec-use": 148,
+                                "php.lang.security.injection.tainted-sql-string": 134,
+                                "php.lang.security.file-inclusion": 73,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 69,
+                                "php.lang.security.eval-use": 19,
+                                "php.lang.security.backticks-use": 13,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "A04:2021 - Insecure Design": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A05:2021 - Security Misconfiguration": {
+                            "number": 10,
+                            "percentage": 0.11,
+                            "found_rules": {
+                                "php.laravel.security.laravel-cookie-long-timeout": 6,
+                                "php.laravel.security.laravel-cookie-secure-set": 4
+                            }
+                        },
+                        "A06:2021 - Vulnerable and Outdated Components": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A07:2021 - Identification and Authentication Failures": {
+                            "number": 6,
+                            "percentage": 0.06,
+                            "found_rules": {
+                                "php.lang.security.php-permissive-cors": 5,
+                                "php.lang.security.ldap-bind-without-password": 1
+                            }
+                        },
+                        "A08:2021 - Software and Data Integrity Failures": {
+                            "number": 139,
+                            "percentage": 1.49,
+                            "found_rules": {
+                                "php.lang.security.unserialize-use": 111,
+                                "php.laravel.security.laravel-dangerous-model-construction": 28
+                            }
+                        },
+                        "A09:2021 - Security Logging and Monitoring Failures": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A10:2021 - Server-Side Request Forgery (SSRF)": {
+                            "number": 125,
+                            "percentage": 1.34,
+                            "found_rules": {
+                                "php.lang.security.injection.tainted-filename": 118,
+                                "php.lang.security.injection.tainted-url-host": 4,
+                                "php.lang.security.php-ssrf": 3
+                            }
+                        },
+                        "without_class": {
+                            "number": 53,
+                            "percentage": 0.57,
+                            "found_rules": {
+                                "php.lang.security.mcrypt-use": 51,
+                                "php.lang.security.md5-loose-equality": 2
+                            }
+                        }
+                    },
+                    "sorted_by_occurrence": {
+                        "php.lang.security.non-literal-header": 892,
+                        "php.lang.security.weak-crypto": 590,
+                        "php.lang.security.unlink-use": 290,
+                        "php.lang.security.injection.echoed-request": 273,
+                        "php.lang.security.exec-use": 148,
+                        "php.lang.security.injection.tainted-sql-string": 134,
+                        "php.lang.security.injection.tainted-filename": 118,
+                        "php.lang.security.unserialize-use": 111,
+                        "php.lang.security.file-inclusion": 73,
+                        "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 69,
+                        "php.lang.security.mcrypt-use": 51,
+                        "php.lang.security.ftp-use": 34,
+                        "php.laravel.security.laravel-dangerous-model-construction": 28,
+                        "php.lang.security.curl-ssl-verifypeer-off": 19,
+                        "php.lang.security.eval-use": 19,
+                        "php.lang.security.backticks-use": 13,
+                        "php.symfony.security.audit.symfony-non-literal-redirect": 11,
+                        "php.laravel.security.laravel-cookie-long-timeout": 6,
+                        "php.lang.security.php-permissive-cors": 5,
+                        "php.lang.security.phpinfo-use": 4,
+                        "php.laravel.security.laravel-cookie-secure-set": 4,
+                        "php.lang.security.audit.openssl-decrypt-validate": 4,
+                        "php.lang.security.injection.tainted-url-host": 4,
+                        "php.laravel.security.laravel-cookie-null-domain": 3,
+                        "php.lang.security.php-ssrf": 3,
+                        "php.laravel.security.laravel-blade-form-missing-csrf": 2,
+                        "php.lang.security.md5-loose-equality": 2,
+                        "php.laravel.security.laravel-cookie-same-site": 1,
+                        "php.lang.security.ldap-bind-without-password": 1,
+                        "php.lang.security.injection.tainted-object-instantiation": 1
+                    },
+                    "sorted_by_confidence": {
+                        "low": {
+                            "number": 2360,
+                            "percentage": 81.02,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 892,
+                                "php.lang.security.weak-crypto": 590,
+                                "php.lang.security.unlink-use": 290,
+                                "php.lang.security.exec-use": 148,
+                                "php.lang.security.unserialize-use": 111,
+                                "php.lang.security.file-inclusion": 73,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 69,
+                                "php.lang.security.mcrypt-use": 51,
+                                "php.lang.security.ftp-use": 34,
+                                "php.laravel.security.laravel-dangerous-model-construction": 28,
+                                "php.lang.security.eval-use": 19,
+                                "php.lang.security.backticks-use": 13,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 11,
+                                "php.laravel.security.laravel-cookie-long-timeout": 6,
+                                "php.lang.security.php-permissive-cors": 5,
+                                "php.laravel.security.laravel-cookie-secure-set": 4,
+                                "php.lang.security.audit.openssl-decrypt-validate": 4,
+                                "php.laravel.security.laravel-cookie-null-domain": 3,
+                                "php.lang.security.php-ssrf": 3,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 2,
+                                "php.lang.security.md5-loose-equality": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 1,
+                                "php.lang.security.ldap-bind-without-password": 1
+                            }
+                        },
+                        "medium": {
+                            "number": 553,
+                            "percentage": 18.98,
+                            "found_rules": {
+                                "php.lang.security.injection.echoed-request": 273,
+                                "php.lang.security.injection.tainted-sql-string": 134,
+                                "php.lang.security.injection.tainted-filename": 118,
+                                "php.lang.security.curl-ssl-verifypeer-off": 19,
+                                "php.lang.security.phpinfo-use": 4,
+                                "php.lang.security.injection.tainted-url-host": 4,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "high": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        }
+                    },
+                    "sorted_by_impact": {
+                        "low": {
+                            "number": 1044,
+                            "percentage": 35.84,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 892,
+                                "php.lang.security.unserialize-use": 111,
+                                "php.lang.security.curl-ssl-verifypeer-off": 19,
+                                "php.laravel.security.laravel-cookie-long-timeout": 6,
+                                "php.lang.security.php-permissive-cors": 5,
+                                "php.laravel.security.laravel-cookie-secure-set": 4,
+                                "php.laravel.security.laravel-cookie-null-domain": 3,
+                                "php.lang.security.md5-loose-equality": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 1,
+                                "php.lang.security.ldap-bind-without-password": 1
+                            }
+                        },
+                        "medium": {
+                            "number": 1617,
+                            "percentage": 55.51,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 590,
+                                "php.lang.security.unlink-use": 290,
+                                "php.lang.security.injection.echoed-request": 273,
+                                "php.lang.security.injection.tainted-sql-string": 134,
+                                "php.lang.security.injection.tainted-filename": 118,
+                                "php.lang.security.file-inclusion": 73,
+                                "php.lang.security.mcrypt-use": 51,
+                                "php.lang.security.ftp-use": 34,
+                                "php.laravel.security.laravel-dangerous-model-construction": 28,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 11,
+                                "php.lang.security.phpinfo-use": 4,
+                                "php.lang.security.audit.openssl-decrypt-validate": 4,
+                                "php.lang.security.injection.tainted-url-host": 4,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 2,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "high": {
+                            "number": 252,
+                            "percentage": 8.65,
+                            "found_rules": {
+                                "php.lang.security.exec-use": 148,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 69,
+                                "php.lang.security.eval-use": 19,
+                                "php.lang.security.backticks-use": 13,
+                                "php.lang.security.php-ssrf": 3
+                            }
+                        }
+                    },
+                    "sorted_by_severity": {
+                        "info": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "warning": {
+                            "number": 1508,
+                            "percentage": 51.77,
+                            "found_rules": {
+                                "php.lang.security.non-literal-header": 892,
+                                "php.lang.security.unlink-use": 290,
+                                "php.lang.security.injection.tainted-filename": 118,
+                                "php.lang.security.unserialize-use": 111,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 69,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 11,
+                                "php.lang.security.php-permissive-cors": 5,
+                                "php.lang.security.audit.openssl-decrypt-validate": 4,
+                                "php.lang.security.injection.tainted-url-host": 4,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 2,
+                                "php.lang.security.ldap-bind-without-password": 1,
+                                "php.lang.security.injection.tainted-object-instantiation": 1
+                            }
+                        },
+                        "error": {
+                            "number": 1405,
+                            "percentage": 48.23,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 590,
+                                "php.lang.security.injection.echoed-request": 273,
+                                "php.lang.security.exec-use": 148,
+                                "php.lang.security.injection.tainted-sql-string": 134,
+                                "php.lang.security.file-inclusion": 73,
+                                "php.lang.security.mcrypt-use": 51,
+                                "php.lang.security.ftp-use": 34,
+                                "php.laravel.security.laravel-dangerous-model-construction": 28,
+                                "php.lang.security.curl-ssl-verifypeer-off": 19,
+                                "php.lang.security.eval-use": 19,
+                                "php.lang.security.backticks-use": 13,
+                                "php.laravel.security.laravel-cookie-long-timeout": 6,
+                                "php.lang.security.phpinfo-use": 4,
+                                "php.laravel.security.laravel-cookie-secure-set": 4,
+                                "php.laravel.security.laravel-cookie-null-domain": 3,
+                                "php.lang.security.php-ssrf": 3,
+                                "php.lang.security.md5-loose-equality": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 1
+                            }
+                        }
+                    }
+                }
+            },
+            "high": {
+                "found_rules": {
+                    "sorted_by_owasp_classes": {
+                        "A01:2021 - Broken Access Control": {
+                            "number": 1255,
+                            "percentage": 13.49,
+                            "found_rules": {
+                                "php.lang.security.unlink-use": 1132,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 77,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 12,
+                                "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                                "php.lang.security.phpinfo-use": 8,
+                                "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                                "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                                "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                                "php.laravel.security.laravel-cookie-same-site": 2,
+                                "php.laravel.security.laravel-cookie-null-domain": 1
+                            }
+                        },
+                        "A02:2021 - Cryptographic Failures": {
+                            "number": 1295,
+                            "percentage": 13.92,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 1150,
+                                "php.lang.security.ftp-use": 137,
+                                "php.lang.security.audit.openssl-decrypt-validate": 6,
+                                "php.lang.security.curl-ssl-verifypeer-off": 2
+                            }
+                        },
+                        "A03:2021 - Injection": {
+                            "number": 1102,
+                            "percentage": 11.85,
+                            "found_rules": {
+                                "php.lang.security.exec-use": 317,
+                                "php.lang.security.non-literal-header": 310,
+                                "php.lang.security.eval-use": 127,
+                                "php.lang.security.injection.tainted-sql-string": 118,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 50,
+                                "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                                "php.lang.security.injection.echoed-request": 46,
+                                "php.lang.security.backticks-use": 37,
+                                "php.lang.security.file-inclusion": 20,
+                                "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                                "php.lang.security.injection.tainted-object-instantiation": 9,
+                                "php.lang.security.audit.assert-use-audit": 2
+                            }
+                        },
+                        "A04:2021 - Insecure Design": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A05:2021 - Security Misconfiguration": {
+                            "number": 5,
+                            "percentage": 0.05,
+                            "found_rules": {
+                                "php.laravel.security.laravel-cookie-long-timeout": 3,
+                                "php.laravel.security.laravel-cookie-secure-set": 2
+                            }
+                        },
+                        "A06:2021 - Vulnerable and Outdated Components": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A07:2021 - Identification and Authentication Failures": {
+                            "number": 3,
+                            "percentage": 0.03,
+                            "found_rules": {
+                                "php.lang.security.ldap-bind-without-password": 2,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "A08:2021 - Software and Data Integrity Failures": {
+                            "number": 589,
+                            "percentage": 6.33,
+                            "found_rules": {
+                                "php.lang.security.unserialize-use": 451,
+                                "php.laravel.security.laravel-dangerous-model-construction": 138
+                            }
+                        },
+                        "A09:2021 - Security Logging and Monitoring Failures": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "A10:2021 - Server-Side Request Forgery (SSRF)": {
+                            "number": 100,
+                            "percentage": 1.08,
+                            "found_rules": {
+                                "php.lang.security.injection.tainted-filename": 91,
+                                "php.lang.security.injection.tainted-url-host": 7,
+                                "php.lang.security.php-ssrf": 2
+                            }
+                        },
+                        "without_class": {
+                            "number": 58,
+                            "percentage": 0.62,
+                            "found_rules": {
+                                "php.lang.security.mcrypt-use": 57,
+                                "php.lang.security.md5-loose-equality": 1
+                            }
+                        }
+                    },
+                    "sorted_by_occurrence": {
+                        "php.lang.security.weak-crypto": 1150,
+                        "php.lang.security.unlink-use": 1132,
+                        "php.lang.security.unserialize-use": 451,
+                        "php.lang.security.exec-use": 317,
+                        "php.lang.security.non-literal-header": 310,
+                        "php.laravel.security.laravel-dangerous-model-construction": 138,
+                        "php.lang.security.ftp-use": 137,
+                        "php.lang.security.eval-use": 127,
+                        "php.lang.security.injection.tainted-sql-string": 118,
+                        "php.lang.security.injection.tainted-filename": 91,
+                        "php.symfony.security.audit.symfony-non-literal-redirect": 77,
+                        "php.lang.security.mcrypt-use": 57,
+                        "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 50,
+                        "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                        "php.lang.security.injection.echoed-request": 46,
+                        "php.lang.security.backticks-use": 37,
+                        "php.lang.security.file-inclusion": 20,
+                        "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                        "php.laravel.security.laravel-blade-form-missing-csrf": 12,
+                        "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                        "php.lang.security.injection.tainted-object-instantiation": 9,
+                        "php.lang.security.phpinfo-use": 8,
+                        "php.lang.security.injection.tainted-url-host": 7,
+                        "php.lang.security.audit.openssl-decrypt-validate": 6,
+                        "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                        "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                        "php.laravel.security.laravel-cookie-long-timeout": 3,
+                        "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                        "php.lang.security.ldap-bind-without-password": 2,
+                        "php.lang.security.curl-ssl-verifypeer-off": 2,
+                        "php.lang.security.php-ssrf": 2,
+                        "php.laravel.security.laravel-cookie-secure-set": 2,
+                        "php.laravel.security.laravel-cookie-same-site": 2,
+                        "php.lang.security.audit.assert-use-audit": 2,
+                        "php.lang.security.md5-loose-equality": 1,
+                        "php.laravel.security.laravel-cookie-null-domain": 1,
+                        "php.lang.security.php-permissive-cors": 1
+                    },
+                    "sorted_by_confidence": {
+                        "low": {
+                            "number": 4077,
+                            "percentage": 92.51,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 1150,
+                                "php.lang.security.unlink-use": 1132,
+                                "php.lang.security.unserialize-use": 451,
+                                "php.lang.security.exec-use": 317,
+                                "php.lang.security.non-literal-header": 310,
+                                "php.laravel.security.laravel-dangerous-model-construction": 138,
+                                "php.lang.security.ftp-use": 137,
+                                "php.lang.security.eval-use": 127,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 77,
+                                "php.lang.security.mcrypt-use": 57,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 50,
+                                "php.lang.security.backticks-use": 37,
+                                "php.lang.security.file-inclusion": 20,
+                                "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 12,
+                                "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                                "php.lang.security.audit.openssl-decrypt-validate": 6,
+                                "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                                "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                                "php.laravel.security.laravel-cookie-long-timeout": 3,
+                                "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                                "php.lang.security.ldap-bind-without-password": 2,
+                                "php.lang.security.php-ssrf": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 2,
+                                "php.lang.security.audit.assert-use-audit": 2,
+                                "php.lang.security.md5-loose-equality": 1,
+                                "php.laravel.security.laravel-cookie-null-domain": 1,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "medium": {
+                            "number": 330,
+                            "percentage": 7.49,
+                            "found_rules": {
+                                "php.lang.security.injection.tainted-sql-string": 118,
+                                "php.lang.security.injection.tainted-filename": 91,
+                                "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                                "php.lang.security.injection.echoed-request": 46,
+                                "php.lang.security.injection.tainted-object-instantiation": 9,
+                                "php.lang.security.phpinfo-use": 8,
+                                "php.lang.security.injection.tainted-url-host": 7,
+                                "php.lang.security.curl-ssl-verifypeer-off": 2
+                            }
+                        },
+                        "high": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        }
+                    },
+                    "sorted_by_impact": {
+                        "low": {
+                            "number": 775,
+                            "percentage": 17.59,
+                            "found_rules": {
+                                "php.lang.security.unserialize-use": 451,
+                                "php.lang.security.non-literal-header": 310,
+                                "php.laravel.security.laravel-cookie-long-timeout": 3,
+                                "php.lang.security.ldap-bind-without-password": 2,
+                                "php.lang.security.curl-ssl-verifypeer-off": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 2,
+                                "php.lang.security.md5-loose-equality": 1,
+                                "php.laravel.security.laravel-cookie-null-domain": 1,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "medium": {
+                            "number": 3075,
+                            "percentage": 69.78,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 1150,
+                                "php.lang.security.unlink-use": 1132,
+                                "php.laravel.security.laravel-dangerous-model-construction": 138,
+                                "php.lang.security.ftp-use": 137,
+                                "php.lang.security.injection.tainted-sql-string": 118,
+                                "php.lang.security.injection.tainted-filename": 91,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 77,
+                                "php.lang.security.mcrypt-use": 57,
+                                "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                                "php.lang.security.injection.echoed-request": 46,
+                                "php.lang.security.file-inclusion": 20,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 12,
+                                "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                                "php.lang.security.injection.tainted-object-instantiation": 9,
+                                "php.lang.security.phpinfo-use": 8,
+                                "php.lang.security.injection.tainted-url-host": 7,
+                                "php.lang.security.audit.openssl-decrypt-validate": 6,
+                                "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                                "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3
+                            }
+                        },
+                        "high": {
+                            "number": 557,
+                            "percentage": 12.64,
+                            "found_rules": {
+                                "php.lang.security.exec-use": 317,
+                                "php.lang.security.eval-use": 127,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 50,
+                                "php.lang.security.backticks-use": 37,
+                                "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                                "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                                "php.lang.security.php-ssrf": 2,
+                                "php.lang.security.audit.assert-use-audit": 2
+                            }
+                        }
+                    },
+                    "sorted_by_severity": {
+                        "info": {
+                            "number": 0,
+                            "percentage": 0.0,
+                            "found_rules": {}
+                        },
+                        "warning": {
+                            "number": 2237,
+                            "percentage": 50.76,
+                            "found_rules": {
+                                "php.lang.security.unlink-use": 1132,
+                                "php.lang.security.unserialize-use": 451,
+                                "php.lang.security.non-literal-header": 310,
+                                "php.lang.security.injection.tainted-filename": 91,
+                                "php.symfony.security.audit.symfony-non-literal-redirect": 77,
+                                "php.doctrine.security.audit.doctrine-dbal-dangerous-query": 50,
+                                "php.doctrine.security.audit.doctrine-orm-dangerous-query": 49,
+                                "php.wordpress-plugins.security.audit.wp-sql-injection-audit": 17,
+                                "php.laravel.security.laravel-blade-form-missing-csrf": 12,
+                                "php.wordpress-plugins.security.audit.wp-authorisation-checks-audit": 10,
+                                "php.lang.security.injection.tainted-object-instantiation": 9,
+                                "php.lang.security.injection.tainted-url-host": 7,
+                                "php.lang.security.audit.openssl-decrypt-validate": 6,
+                                "php.wordpress-plugins.security.audit.wp-file-inclusion-audit": 5,
+                                "php.symfony.security.audit.symfony-csrf-protection-disabled": 5,
+                                "php.wordpress-plugins.security.audit.wp-ajax-no-auth-and-auth-hooks-audit": 3,
+                                "php.lang.security.ldap-bind-without-password": 2,
+                                "php.lang.security.php-permissive-cors": 1
+                            }
+                        },
+                        "error": {
+                            "number": 2170,
+                            "percentage": 49.24,
+                            "found_rules": {
+                                "php.lang.security.weak-crypto": 1150,
+                                "php.lang.security.exec-use": 317,
+                                "php.laravel.security.laravel-dangerous-model-construction": 138,
+                                "php.lang.security.ftp-use": 137,
+                                "php.lang.security.eval-use": 127,
+                                "php.lang.security.injection.tainted-sql-string": 118,
+                                "php.lang.security.mcrypt-use": 57,
+                                "php.lang.security.injection.echoed-request": 46,
+                                "php.lang.security.backticks-use": 37,
+                                "php.lang.security.file-inclusion": 20,
+                                "php.lang.security.phpinfo-use": 8,
+                                "php.laravel.security.laravel-cookie-long-timeout": 3,
+                                "php.lang.security.curl-ssl-verifypeer-off": 2,
+                                "php.lang.security.php-ssrf": 2,
+                                "php.laravel.security.laravel-cookie-secure-set": 2,
+                                "php.laravel.security.laravel-cookie-same-site": 2,
+                                "php.lang.security.audit.assert-use-audit": 2,
+                                "php.lang.security.md5-loose-equality": 1,
+                                "php.laravel.security.laravel-cookie-null-domain": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

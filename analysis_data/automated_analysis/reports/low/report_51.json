@@ -1,0 +1,1064 @@
+{
+    "errors": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+    "paths": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+    "results": [
+        {
+            "check_id": "php.lang.security.unserialize-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Calling `unserialize()` with user input in the pattern can lead to arbitrary code execution. Consider using JSON or structured data approaches (e.g. Google Protocol Buffers).",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-502: Deserialization of Untrusted Data"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "LOW",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A08:2017 - Insecure Deserialization",
+                        "A08:2021 - Software and Data Integrity Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/ru/function.unserialize.php",
+                        "https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.unserialize-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Calling `unserialize()` with user input in the pattern can lead to arbitrary code execution. Consider using JSON or structured data approaches (e.g. Google Protocol Buffers).",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-502: Deserialization of Untrusted Data"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "LOW",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A08:2017 - Insecure Deserialization",
+                        "A08:2021 - Software and Data Integrity Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/ru/function.unserialize.php",
+                        "https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.unserialize-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Calling `unserialize()` with user input in the pattern can lead to arbitrary code execution. Consider using JSON or structured data approaches (e.g. Google Protocol Buffers).",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-502: Deserialization of Untrusted Data"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "LOW",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A08:2017 - Insecure Deserialization",
+                        "A08:2021 - Software and Data Integrity Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/ru/function.unserialize.php",
+                        "https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.unserialize-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Calling `unserialize()` with user input in the pattern can lead to arbitrary code execution. Consider using JSON or structured data approaches (e.g. Google Protocol Buffers).",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-502: Deserialization of Untrusted Data"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "LOW",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A08:2017 - Insecure Deserialization",
+                        "A08:2021 - Software and Data Integrity Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/ru/function.unserialize.php",
+                        "https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.eval-use",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Evaluating non-constant commands. This can lead to command injection.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/function.eval",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/NoEvalsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.weak-crypto",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected usage of weak crypto function. Consider using stronger alternatives.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-328: Use of Weak Hash"
+                    ],
+                    "impact": "MEDIUM",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A03:2017 - Sensitive Data Exposure",
+                        "A02:2021 - Cryptographic Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/book.sodium.php",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/CryptoFunctionsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.weak-crypto",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected usage of weak crypto function. Consider using stronger alternatives.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-328: Use of Weak Hash"
+                    ],
+                    "impact": "MEDIUM",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A03:2017 - Sensitive Data Exposure",
+                        "A02:2021 - Cryptographic Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/book.sodium.php",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/CryptoFunctionsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.weak-crypto",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected usage of weak crypto function. Consider using stronger alternatives.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-328: Use of Weak Hash"
+                    ],
+                    "impact": "MEDIUM",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A03:2017 - Sensitive Data Exposure",
+                        "A02:2021 - Cryptographic Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/book.sodium.php",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/CryptoFunctionsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.weak-crypto",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected usage of weak crypto function. Consider using stronger alternatives.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-328: Use of Weak Hash"
+                    ],
+                    "impact": "MEDIUM",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A03:2017 - Sensitive Data Exposure",
+                        "A02:2021 - Cryptographic Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/book.sodium.php",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/CryptoFunctionsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.weak-crypto",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected usage of weak crypto function. Consider using stronger alternatives.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-328: Use of Weak Hash"
+                    ],
+                    "impact": "MEDIUM",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A03:2017 - Sensitive Data Exposure",
+                        "A02:2021 - Cryptographic Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/book.sodium.php",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/CryptoFunctionsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.lang.security.weak-crypto",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected usage of weak crypto function. Consider using stronger alternatives.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-328: Use of Weak Hash"
+                    ],
+                    "impact": "MEDIUM",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A03:2017 - Sensitive Data Exposure",
+                        "A02:2021 - Cryptographic Failures"
+                    ],
+                    "references": [
+                        "https://www.php.net/manual/en/book.sodium.php",
+                        "https://github.com/FloeDesignTechnologies/phpcs-security-audit/blob/master/Security/Sniffs/BadFunctions/CryptoFunctionsSniff.php"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "php"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "ERROR",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.doctrine.security.audit.doctrine-dbal-dangerous-query",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected string concatenation with a non-literal variable in a Doctrine DBAL query method. This could lead to SQL injection if the variable is user-controlled and not properly sanitized. In order to prevent SQL injection, use parameterized queries or prepared statements instead.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.doctrine-project.org/projects/doctrine-dbal/en/current/reference/security.html",
+                        "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "doctrine"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.doctrine.security.audit.doctrine-dbal-dangerous-query",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected string concatenation with a non-literal variable in a Doctrine DBAL query method. This could lead to SQL injection if the variable is user-controlled and not properly sanitized. In order to prevent SQL injection, use parameterized queries or prepared statements instead.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.doctrine-project.org/projects/doctrine-dbal/en/current/reference/security.html",
+                        "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "doctrine"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        },
+        {
+            "check_id": "php.doctrine.security.audit.doctrine-dbal-dangerous-query",
+            "end": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "is_ignored": false,
+                "lines": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "message": "Detected string concatenation with a non-literal variable in a Doctrine DBAL query method. This could lead to SQL injection if the variable is user-controlled and not properly sanitized. In order to prevent SQL injection, use parameterized queries or prepared statements instead.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "HIGH",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A01:2017 - Injection",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://www.doctrine-project.org/projects/doctrine-dbal/en/current/reference/security.html",
+                        "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+                    ],
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "doctrine"
+                    ]
+                },
+                "metavars": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+                "severity": "WARNING",
+                "dataflow_trace": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+            },
+            "path": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS",
+            "start": "BLINDED_DUE_TO_ETHICAL_CONSIDERATIONS"
+        }
+    ],
+    "version": "1.22.0"
+}
